@@ -39,7 +39,7 @@ displayName="Sky and Sea" #mandatory
 authors="CubWatson, Selly Sel" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''Why is the sky blue? Because itâs a reflection of the ocean!'''
+description='''Why is the sky blue? Because it's a reflection of the ocean!'''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 #[[mixins]]
