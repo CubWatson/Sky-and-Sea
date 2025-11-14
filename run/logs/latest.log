@@ -1,136 +1,72 @@
-[10Nov2025 06:04:50.155] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 44ms
-[10Nov2025 06:04:50.159] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.29 (CLIENT in DEV)
-[10Nov2025 06:04:50.159] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /Users/kevin/GitHub Projects/sky-and-sea/run
-[10Nov2025 06:04:50.180] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 109) in 8ms
-[10Nov2025 06:04:50.180] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[10Nov2025 06:04:50.180] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /Users/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.29/623a30d16a3a06ae8bd93074178a756e6aa55158/loader-10.0.29.jar
-[10Nov2025 06:04:50.181] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /Users/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.29/6268812ffd0c16cc1eea921b2335d58585384574/earlydisplay-10.0.29.jar
-[10Nov2025 06:04:50.183] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[10Nov2025 06:04:50.343] [main/WARN] [EARLYDISPLAY/]: Failed to set window icon: [0x1000C] Cocoa: Regular windows do not have icons on macOS
-[10Nov2025 06:04:50.458] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[10Nov2025 06:04:50.485] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates skyandsea%%/Users/kevin/GitHub Projects/sky-and-sea/build/classes/java/main:skyandsea%%/Users/kevin/GitHub Projects/sky-and-sea/build/resources/main from env
-[10Nov2025 06:04:50.525] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: Apple M4 GL version 4.1 Metal - 90.5, Apple
-[10Nov2025 06:04:50.547] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[10Nov2025 06:04:50.548] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[14Nov2025 16:25:12.954] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 54ms
+[14Nov2025 16:25:12.961] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.29 (CLIENT in DEV)
+[14Nov2025 16:25:12.961] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /home/kevin/GitHub Projects/sky-and-sea/run
+[14Nov2025 16:25:12.998] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 101) in 10ms
+[14Nov2025 16:25:12.999] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[14Nov2025 16:25:12.999] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.29/623a30d16a3a06ae8bd93074178a756e6aa55158/loader-10.0.29.jar
+[14Nov2025 16:25:12.999] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.29/6268812ffd0c16cc1eea921b2335d58585384574/earlydisplay-10.0.29.jar
+[14Nov2025 16:25:13.002] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[14Nov2025 16:25:13.199] [ForkJoinPool.commonPool-worker-9/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[14Nov2025 16:25:13.266] [ForkJoinPool.commonPool-worker-9/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates skyandsea%%/home/kevin/GitHub Projects/sky-and-sea/build/classes/java/main:skyandsea%%/home/kevin/GitHub Projects/sky-and-sea/build/resources/main from env
+[14Nov2025 16:25:13.295] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 21.1.4, DRM 3.64, 6.17.7-3-cachyos) GL version 4.6 (Core Profile) Mesa 25.2.6-cachyos1.2, AMD
+[14Nov2025 16:25:13.331] [ForkJoinPool.commonPool-worker-9/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[14Nov2025 16:25:13.332] [ForkJoinPool.commonPool-worker-9/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.49-beta (neoforge)
 		Sky and Sea 0.0.1 (skyandsea)
-[10Nov2025 06:04:50.622] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
-[10Nov2025 06:04:50.629] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[10Nov2025 06:04:50.629] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.10.49-beta.jar
-[10Nov2025 06:04:50.656] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
- - minecraft (composite(jar(/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta-client-extra-aka-minecraft-resources.jar), filtered(jar(/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar))))
- - mixinextras.neoforge (jar(/Users/kevin/GitHub Projects/sky-and-sea/run/.cache/jij/9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507/mixinextras-neoforge-0.5.0.jar))
- - neoforge (composite(filtered(jar(/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar))))
+[14Nov2025 16:25:13.438] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[14Nov2025 16:25:13.450] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[14Nov2025 16:25:13.451] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.10.49-beta.jar
+[14Nov2025 16:25:13.504] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - minecraft (composite(jar(/home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta-client-extra-aka-minecraft-resources.jar), filtered(jar(/home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar))))
+ - mixinextras.neoforge (jar(/home/kevin/GitHub Projects/sky-and-sea/run/.cache/jij/9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507/mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(/home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
- - skyandsea (composite(folder(/Users/kevin/GitHub Projects/sky-and-sea/build/classes/java/main), folder(/Users/kevin/GitHub Projects/sky-and-sea/build/resources/main)))
-[10Nov2025 06:04:50.661] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 7ms
-[10Nov2025 06:04:51.116] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 138 milliseconds
-[10Nov2025 06:04:51.362] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[10Nov2025 06:04:53.250] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10Nov2025 06:04:53.251] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10Nov2025 06:04:53.252] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10Nov2025 06:04:53.253] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10Nov2025 06:04:53.253] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10Nov2025 06:04:53.254] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
-[10Nov2025 06:04:53.280] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.49-beta, for MC 1.21.10
-[10Nov2025 06:04:53.461] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10Nov2025 06:04:53.468] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[10Nov2025 06:04:53.500] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[10Nov2025 06:04:53.742] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: 
-[10Nov2025 06:04:54.366] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/skyandsea, mod/neoforge
-[10Nov2025 06:04:54.374] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: HELLO FROM COMMON SETUP
-[10Nov2025 06:04:54.374] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: DIRT BLOCK >> minecraft:dirt
-[10Nov2025 06:04:54.374] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: The magic number is... 42
-[10Nov2025 06:04:54.374] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: ITEM >> minecraft:iron_ingot
-[10Nov2025 06:04:54.563] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
-[10Nov2025 06:04:54.563] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
-[10Nov2025 06:04:54.641] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: HELLO FROM CLIENT SETUP
-[10Nov2025 06:04:54.642] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: MINECRAFT NAME >> Dev
-[10Nov2025 06:04:54.654] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
-[10Nov2025 06:04:55.107] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing model for variant: 'Block{skyandsea:example_block}'
-[10Nov2025 06:04:55.244] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.248] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.250] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.259] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.267] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.268] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_text_background_see_through and FS minecraft:core/rendertype_text_background_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.269] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.269] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.273] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.276] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.281] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.283] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_beacon_beam and FS minecraft:core/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.285] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.286] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.287] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_entity_alpha and FS minecraft:core/rendertype_entity_alpha. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Output of vertex shader 'texCoord1' not read by fragment shader
-WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
-
-[10Nov2025 06:04:55.289] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_translucent_moving_block and FS minecraft:core/rendertype_translucent_moving_block. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.290] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_text_see_through and FS minecraft:core/rendertype_text_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.293] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.294] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_text_intensity_see_through and FS minecraft:core/rendertype_text_intensity_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.298] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_entity_shadow and FS minecraft:core/rendertype_entity_shadow. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.301] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_crumbling and FS minecraft:core/rendertype_crumbling. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
-
-[10Nov2025 06:04:55.302] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.304] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_beacon_beam and FS minecraft:core/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[10Nov2025 06:04:55.307] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/rendertype_item_entity_translucent_cull and FS minecraft:core/rendertype_item_entity_translucent_cull. Log output: WARNING: Output of vertex shader 'texCoord1' not read by fragment shader
-WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
-
-[10Nov2025 06:04:55.307] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlProgram/]: Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[10Nov2025 06:04:55.347] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device MacBook Air Speakers
-[10Nov2025 06:04:55.349] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[10Nov2025 06:04:55.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[10Nov2025 06:04:55.350] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[10Nov2025 06:04:55.350] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[10Nov2025 06:04:55.352] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[10Nov2025 06:04:55.352] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[10Nov2025 06:04:55.353] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[10Nov2025 06:04:55.359] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
-[10Nov2025 06:04:55.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[10Nov2025 06:04:55.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
-[10Nov2025 06:04:55.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[10Nov2025 06:04:55.361] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[10Nov2025 06:04:55.361] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
-[10Nov2025 06:04:55.361] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[10Nov2025 06:04:55.409] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID skyandsea:example_block of skyandsea:example_block
-[10Nov2025 06:04:55.409] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID skyandsea:example_item of skyandsea:example_item
-[10Nov2025 06:04:55.410] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[10Nov2025 06:05:03.475] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+ - skyandsea (composite(folder(/home/kevin/GitHub Projects/sky-and-sea/build/classes/java/main), folder(/home/kevin/GitHub Projects/sky-and-sea/build/resources/main)))
+[14Nov2025 16:25:13.510] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 10ms
+[14Nov2025 16:25:14.194] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14Nov2025 16:25:14.200] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 191 milliseconds
+[14Nov2025 16:25:16.880] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Nov2025 16:25:16.881] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Nov2025 16:25:16.883] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Nov2025 16:25:16.883] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Nov2025 16:25:16.884] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Nov2025 16:25:16.884] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[14Nov2025 16:25:16.922] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.49-beta, for MC 1.21.10
+[14Nov2025 16:25:17.169] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14Nov2025 16:25:17.177] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14Nov2025 16:25:17.226] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[14Nov2025 16:25:17.308] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[14Nov2025 16:25:17.664] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/skyandsea, mod/neoforge
+[14Nov2025 16:25:17.675] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: HELLO FROM COMMON SETUP
+[14Nov2025 16:25:17.675] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: DIRT BLOCK >> minecraft:dirt
+[14Nov2025 16:25:17.675] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: The magic number is... 42
+[14Nov2025 16:25:17.675] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: ITEM >> minecraft:iron_ingot
+[14Nov2025 16:25:17.776] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
+[14Nov2025 16:25:17.776] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
+[14Nov2025 16:25:17.840] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
+[14Nov2025 16:25:17.905] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: HELLO FROM CLIENT SETUP
+[14Nov2025 16:25:17.906] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: MINECRAFT NAME >> Dev
+[14Nov2025 16:25:18.251] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing model for variant: 'Block{skyandsea:example_block}'
+[14Nov2025 16:25:18.417] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Speakers
+[14Nov2025 16:25:18.417] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[14Nov2025 16:25:18.418] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14Nov2025 16:25:18.421] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[14Nov2025 16:25:18.421] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[14Nov2025 16:25:18.424] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14Nov2025 16:25:18.425] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[14Nov2025 16:25:18.426] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[14Nov2025 16:25:18.453] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
+[14Nov2025 16:25:18.454] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[14Nov2025 16:25:18.454] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[14Nov2025 16:25:18.455] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[14Nov2025 16:25:18.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[14Nov2025 16:25:18.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[14Nov2025 16:25:18.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14Nov2025 16:25:18.529] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID skyandsea:example_block of skyandsea:example_block
+[14Nov2025 16:25:18.529] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID skyandsea:example_item of skyandsea:example_item
+[14Nov2025 16:25:18.531] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[14Nov2025 16:26:34.623] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
